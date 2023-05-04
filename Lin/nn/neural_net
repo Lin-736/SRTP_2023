@@ -1,0 +1,22 @@
+// Neural Network
+digraph {
+	X1
+	X2
+	X3
+	X4
+	H1
+	H2
+	Y
+	X1 -> H1 [label=W1]
+	X1 -> H2 [label=W2]
+	X2 -> H1 [label=W3]
+	X2 -> H2 [label=W4]
+	X3 -> H1 [label=W5]
+	X3 -> H2 [label=W6]
+	X4 -> H1 [label=W7]
+	X4 -> H2 [label=W8]
+	H1 -> Y [label=W9]
+	H2 -> Y [label=W10]
+	node [color=lightblue2 fontname=Helvetica shape=circle style=filled]
+	edge [fontname=Helvetica]
+}
